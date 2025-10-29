@@ -197,7 +197,7 @@ h1, h2, h3 {
 }
 
 .hero-title {
-  font-size: clamp(3rem, 8vw, 5rem);
+  font-size: 70px;
   font-weight: 900;
   margin-bottom: 1rem;
   background: linear-gradient(135deg, var(--accent-green), var(--accent-blue));
