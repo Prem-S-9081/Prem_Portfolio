@@ -112,6 +112,13 @@ const projects = [
         description: 'Developed an unsupervised intrusion detection system for IoV using LSTM autoencoder-decoder. Included IoV traffic preprocessing, feature selection, anomaly detection via reconstruction error, and visual explainability. Achieved 98% accuracy, strong zero-day attack detection, and outperformed traditional models. Focus: Cybersecurity, Deep Learning, IoV, Anomaly Detection, LSTM, Autoencoder.',
         technologies: ['IoV Security', 'LSTM', 'Deep Learning', 'Anomaly Detection'],
         impact: 'Enabled highly accurate, explainable, and robust intrusion detection, especially for zero-day attacks using deep learning.'
+    },
+    {
+        id: 6,
+        title: 'Automated Host and Network Security Baselines for Wonderville Municipal Infrastructure',
+        description: 'Mapped Wonderville’s full network topology with precise IPs, OS, and subnets. Built a PowerShell service-baseline and monitoring framework to track Windows services, join them to processes, flag high CPU/memory, new services, and suspicious names, and log results to timestamped CSV reports. Developed a Python + Nmap scanner to enumerate open TCP ports/services on all hosts, normalize results, and produce an attack-surface baseline report. Implemented a Python + Scapy analyzer to process pcapng captures, compute protocol distributions, top talkers, and broadcast/multicast behavior, creating a packet-level traffic baseline for segmentation and anomaly detection.',
+        technologies: ['Python', 'Scapy', 'Powershell' ,'Wireshark', 'Nmap'],
+        impact: 'Automated visibility into host services, exposed ports, and real network behavior, enabling data-driven hardening, faster anomaly detection, and stronger security operations with minimal additional cost.'
     }
 ];
 
